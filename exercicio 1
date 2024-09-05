@@ -1,3 +1,6 @@
+
+#1
+
 def is_fibonacci(num):
     a, b = 0, 1
     while a <= num:
@@ -12,3 +15,42 @@ if is_fibonacci(num):
     print(f"O número {num} pertence à sequência de Fibonacci.")
 else:
     print(f"O número {num} não pertence à sequência de Fibonacci.")
+
+
+#2
+def count_letter_a(s):
+    return s.lower().count('a')
+
+# Teste
+text = input("Digite uma string: ")
+count = count_letter_a(text)
+print(f"A letra 'a' aparece {count} vezes na string.")
+
+
+
+#3 e 4
+a)O próximo número após 7 é 9.
+
+b) O próximo número após 64 é 128.
+
+c)  O próximo número após 36 é 49 (7²).
+
+d)  O próximo número após 64 (8²) é 100 (10²).
+
+e) . O próximo número após 8 é 13.
+
+f)  o próximo número é 20.
+
+
+#5
+Para identificar qual interruptor controla qual lâmpada:
+
+Ligue o primeiro interruptor e deixe-o ligado por alguns minutos.
+Desligue o primeiro interruptor e ligue o segundo interruptor.
+Vá até as salas das lâmpadas:
+A lâmpada que está acesa corresponde ao segundo interruptor.
+A lâmpada que está apagada, mas quente, corresponde ao primeiro interruptor (aquele que foi ligado por um tempo e depois desligado).
+A lâmpada que está apagada e fria corresponde ao terceiro interruptor (aquele que nunca foi ligado).
+Com isso, você pode determinar qual interruptor controla qual lâmpada com apenas duas idas.
+
+#inclusive um comentario, para resolver a 5 eu lembrei exatamente do que foi pensado na serie da netflix 'Alice in Borderland'
